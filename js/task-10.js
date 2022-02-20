@@ -12,10 +12,10 @@ const refs = {
 
 
 refs.input.addEventListener('blur', (event) => {
-  const { value } = event.currentTarget;
+  const { value } = event.target;
   console.log(value);
 
-  refs.btnCreateBox.addEventListener('click', (event) => {
+  refs.btnCreateBox.addEventListener('click', () => {
     createBoxes(value);
       
   });
