@@ -29,10 +29,10 @@ refs.input.addEventListener('blur', (event) => {
 });
 
 
-let element = [];
+
 
 function createBoxes(amount) {
-
+  let element = [];
   let widthBoxEl = 30;
   let heightBoxEl = 30;
 
